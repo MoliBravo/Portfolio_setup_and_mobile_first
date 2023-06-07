@@ -9,9 +9,9 @@
 body {
   background: url(images/header-illsutration-mobile.png);
   background-color: white;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top 2.75rem right -0.5rem;
+  background-position: top 3rem right -0.15rem;
 }
 
 .logo {
@@ -61,7 +61,7 @@ p {
   font-size: 20px;
   text-align: center;
   font-weight: 400;
-  margin-bottom: -30%;
+  margin-bottom: -27%;
   margin-top: -40px;
   color: #172b4d;
 }
@@ -78,15 +78,17 @@ p {
   display: inline-flex;
   list-style: none;
   flex-direction: row;
-  margin-top: 120px;
+  margin-top: 105px;
   margin-left: 30px;
   align-content: center;
 }
 
-.action {
+.buton {
   width: 327px;
   height: auto;
-  margin-top: 65px;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-top: 85px;
+  padding-right: 30px;
+  padding-left: 80px;
+  padding-bottom: 30px;
+  align-content: center;
 }
