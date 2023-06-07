@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
-    background: url(/images/header-illsutration-mobile.png);
+    background: url(images/header-illsutration-mobile.png);
     background-color: white;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+   
   }
 #logo{
     font-family: poppins, sans-serif;
@@ -32,7 +33,7 @@ body {
     font-family: poppins, sans-serif;
     color: #172B4D;
     text-align: center;
-    font-size: 140%;
+    font-size: 160%;
     margin-top: 110px;
     margin-left: 20px;
     margin-right: 20px;
@@ -43,13 +44,13 @@ body {
     font-family: poppins, sans-serif;
     color:#36B37E;
     text-align: center;
-    font-size: 140%;
+    font-size: 160%;
    
 }
 
 p{
     font-family: poppins, sans-serif;
-    font-size: 80%;
+    font-size: 100%;
     text-align: center;
     margin-bottom: -30%;
     margin-top: -5%;
@@ -63,22 +64,16 @@ p{
     margin-bottom: 10%;
 }
 
-ul li{
-    list-style: none;
-}
-
-.socialMedia{
-    display: flex;
-  }
-
-  .social{
-    flex-direction: row;
-  }
-  
   .socialMedia ul li {
-    display: inline;
-    width: 170.17px;
-    height: 20px;
-    gap: 1.5rem;
+    display: inline-flex;
     list-style: none;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 8%;
+   
+    align-content: center;
+  }
+
+ .action{
+    padding-top: 20%;
   }
