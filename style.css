@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-
-}
-
 .logo {
   font-family: 'Inter', sans-serif;
   color: #36b37e;
@@ -26,10 +22,10 @@ body {
 }
 
 .hero-section {
-    background: url(images/header-illsutration-mobile.png);
-    background-color: white;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background: url(images/header-illsutration-mobile.png);
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   gap: 1rem;
