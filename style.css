@@ -88,3 +88,143 @@ p {
   padding-bottom: 30px;
   align-content: center;
 }
+
+.recent{
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  width: 327px;
+  height: 97px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding-right: 60px;
+  padding-left: 60px;
+  text-align: center;
+  color:#172b4d;
+}
+
+.indicator{
+  align-content: center;
+  padding-bottom: 30px;
+  padding-left: 170px;
+}
+
+.multi-post{
+  background: url(images/GreyBackground.png), white;
+  width: 327px;
+  height: 474px;
+  background-color: #EBF0EE;
+  border-radius: 8px;
+  padding-top: 20px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 20px;
+  
+}
+
+.butons{
+  width: 323px;
+  height: 222px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  background-color: white;
+  background-position: bottom;
+  border-radius: 8px;
+  margin-top: 229px;
+}
+
+.stories{
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  width: 295px;
+  height: 57px;
+  line-height: 32px;
+  margin-top: 16px;
+  margin-left: 13px;
+  text-align: center;
+  color: #3A4A42;
+  margin-bottom: 20px;
+}
+
+.lenguages{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.ruby{
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 106px;
+  height: 32px;
+  background-color: #EBF0EE;
+  background-size: 106px 32px;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 8px;
+  text-align: center;
+  
+}
+
+.css{
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 50px;
+  height: 32px;
+  background-color: #EBF0EE;
+   border-radius: 4px;
+  text-align: center; 
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 8px;
+}
+
+.javaScript{
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 89px;
+  height: 32px;
+  background-color: #EBF0EE;
+  border-radius: 4px;
+  text-align: center; 
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 8px;
+}
+
+.html{
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 60px;
+  height: 32px;
+  background-color: #EBF0EE;
+  border-radius: 4px;
+  text-align: center; 
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 8px;
+}
+
+.see-project{
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  width: 122px;
+  height: 48px;
+  background-color: #36B37F;
+  text-align: center; 
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding-top: 10px;
+}
