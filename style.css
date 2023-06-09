@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   font-family: 'Inter', sans-serif;
   color: #36b37e;
@@ -22,61 +26,56 @@
 }
 
 .hero-section {
-  background: url(images/header-illsutration-mobile.png);
+  background: url('images/header-illsutration-mobile.png');
   background-color: white;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: right top 0rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  padding-top: 4rem;
 }
 
-#hello {
+.hero-heading {
   font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.name-heading {
   color: #172b4d;
-  text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  margin-top: 70px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
-#developer {
-  font-family: 'Inter', sans-serif;
+.developer-heading {
   color: #36b37e;
-  font-weight: 700;
-  text-align: center;
-  font-size: 40px;
-  margin-top: -50px;
+  margin-top: -1rem;
+}
+
+.word-breaker {
+  display: block;
 }
 
 p {
   font-family: 'Inter', sans-serif;
+}
+
+.intro-para {
   font-size: 20px;
   text-align: center;
   font-weight: 400;
-  margin-bottom: -27%;
-  margin-top: -40px;
   color: #172b4d;
 }
 
-.container {
+.social {
   display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-top: -10%;
-  margin-bottom: 10%;
-}
-
-.socialMedia ul li {
-  display: inline-flex;
-  list-style: none;
   flex-direction: row;
-  margin-top: 105px;
-  margin-left: 30px;
+  align-items: center;
+  list-style: none;
   align-content: center;
+  gap: 16px;
 }
 
 .buton {
@@ -93,138 +92,139 @@ p {
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  width: 327px;
-  height: 97px;
-  margin-left: 26px;
-  margin-right: 26px;
-  padding-right: 60px;
-  padding-left: 60px;
   text-align: center;
   color: #172b4d;
+  padding-bottom: 24px;
+  position: relative;
 }
 
-.indicator {
-  align-content: center;
-  padding-bottom: 30px;
-  padding-left: 170px;
+.recent::after {
+  position: absolute;
+  content: '';
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.multi-post {
-  background: url(images/GreyBackground.png), white;
-  width: 327px;
-  height: 474px;
-  background-color: #EBF0EE;
+.mishy-work-box {
+  display: grid;
+  align-items: baseline;
+  padding: 4rem 26px;
+  gap: 24px;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #D0D9D4;
   border-radius: 8px;
-  padding-top: 20px;
-  margin-left: 26px;
-  margin-right: 26px;
-  margin-bottom: 20px;
-
+  height: max-content;
 }
 
-.butons {
-  width: 323px;
-  height: 222px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  background-color: white;
-  background-position: bottom;
-  border-radius: 8px;
-  margin-top: 229px;
+.project-image {
+  display: inline-block;
+  height: 16rem;
+}
+
+.project-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0 24px 0;
 }
 
 .stories {
   font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
-  width: 295px;
-  height: 57px;
-  line-height: 32px;
-  margin-top: 16px;
-  margin-left: 13px;
   text-align: center;
   color: #3A4A42;
-  margin-bottom: 20px;
 }
 
-.lenguages {
-  list-style: none;
+.project-skills-wrapper {
   display: flex;
-  flex-direction: row;
+  list-style: none;
   align-items: center;
   gap: 8px;
 }
 
-.ruby {
+.project-skill {
   font-family: 'Inter', sans-serif;
   font-size: 12px;
-  font-weight: 600;
-  width: 106px;
-  height: 32px;
+  font-weight: 400;
+  padding: 8px 12px;
   background-color: #EBF0EE;
-  background-size: 106px 32px;
+  color: #3A4A42;
   border-radius: 4px;
-  padding-top: 8px;
-  padding-left: 12px;
-  padding-right: 8px;
-  text-align: center;
-
 }
 
-.css {
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  width: 50px;
-  height: 32px;
-  background-color: #EBF0EE;
-  border-radius: 4px;
-  text-align: center;
-  padding-top: 8px;
-  padding-left: 12px;
-  padding-right: 8px;
-}
-
-.javaScript {
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  width: 89px;
-  height: 32px;
-  background-color: #EBF0EE;
-  border-radius: 4px;
-  text-align: center;
-  padding-top: 8px;
-  padding-left: 12px;
-  padding-right: 8px;
-}
-
-.html {
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  width: 60px;
-  height: 32px;
-  background-color: #EBF0EE;
-  border-radius: 4px;
-  text-align: center;
-  padding-top: 8px;
-  padding-left: 12px;
-  padding-right: 8px;
-}
-
-.see-project {
+.see-project-button {
   font-family: 'Inter', sans-serif;
   color: white;
+  background-color: #36B37F;
   font-size: 17px;
   font-weight: 500;
-  width: 122px;
-  height: 48px;
-  background-color: #36B37F;
   text-align: center;
+  border: none;
   border-radius: 4px;
-  margin-top: 30px;
-  margin-left: 100px;
-  padding-top: 10px;
+  padding: 10px;
+}
+
+.see-project-button:active {
+  cursor: pointer;
+  background-color: #008552;
+}
+
+.see-project-button:hover {
+  cursor: pointer;
+  background-color: #36B37F;
+  box-shadow: rgba(54, 179, 127, 0.24);
+}
+
+.see-project-button:visited {
+  background-color: #008552;
+  font-weight: 500;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 4rem 1rem;
+  background: url('images/Mask-Group.png'), url('images/illustration-about-me-mobile.png');
+  background-repeat: no-repeat no-repeat;
+  background-position: right top, left bottom 3.25rem;
+}
+
+.headding {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #172B4D;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.about-para {
+  color: #42526E;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.resume-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  display: flex;
+  background-color: #36B37F;
+  font-size: 17px;
+  width: max-content;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+ align-self: center;
 }
