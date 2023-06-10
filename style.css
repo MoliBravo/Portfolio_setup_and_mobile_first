@@ -226,5 +226,157 @@ p {
   color: white;
   padding: 12px;
   border-radius: 4px;
- align-self: center;
+  align-self: center;
+}
+
+.wrap-cards {
+  background-color: #EBF0EE;
+  border: 1px solid #C1C7D0;
+  background-image: url(images/icon-languages.png);
+  background-repeat: no-repeat;
+  background-position: center top 2rem;
+}
+
+.tcards-languages {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 8px;
+}
+
+.languages {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 8.5rem;
+}
+
+.final-cards-languages {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: white;
+  color: #36b37f;
+  border-radius: 4px;
+  margin-bottom: 4rem;
+}
+
+.wrap-frameworks {
+  background-color: #EBF0EE;
+  border: 1px solid #C1C7D0;
+  background-image: url(images/icon-frameworks.png);
+  background-repeat: no-repeat;
+  background-position: center top 2rem;
+  margin-top: 1.5rem;
+}
+
+.frameworks {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 8.5rem;
+}
+
+.cards-frameworks {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: row;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.final-cards-frameworks {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: white;
+  color: #36b37f;
+  border-radius: 4px;
+  max-width: fit-content;
+}
+
+.final-cards-frameworks {
+  align-self: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: white;
+  color: #36b37f;
+  border-radius: 4px;
+}
+
+.final-cards-frameworks.second {
+  margin-bottom: 1.5rem;
+}
+
+.wrap-skills {
+  background-color: #EBF0EE;
+  border: 1px solid #C1C7D0;
+  background-image: url(images/icon-skills.png);
+  background-repeat: no-repeat;
+  background-position: center top 2rem;
+  margin-top: 1.5rem;
+}
+
+.skills {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 8.5rem;
+}
+
+.cards-skills {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: row;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+
+}
+
+.final-cards-skils {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: white;
+  color: #36b37f;
+  border-radius: 4px;
+  max-width: fit-content;
+}
+
+.final-cards-skills {
+  align-self: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: white;
+  color: #36b37f;
+  border-radius: 4px;
+}
+
+.final-cards-skills.second {
+  margin-bottom: 1.5rem;
 }
