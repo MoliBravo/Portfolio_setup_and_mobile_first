@@ -5,7 +5,7 @@
   <img src="images/MoliBravoLogo.png" alt="logo" width="140"  height="auto" aling= "center"/>
   <br/>
 
-  <h3><b>Portfolio setup and mobile first</b></h3>
+  <h3><b>Portfolio Finish Mobile Version</b></h3>
 
 </div>
 
@@ -28,12 +28,11 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio setup and mobile first] <a name="about-project"></a>
+# 📖 [Portfolio Finish Mobile Version] <a name="about-project"></a>
 
-**[Portfolio setup and mobile first]** is my second project in Microverse.
+**[Portfolio Finish Mobile Version]** is my third project in Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -80,13 +79,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-> https://github.com/MoliBravo/Portfolio_setup_and_mobile_first/tree/Portfolio_Setup
+> https://github.com/MoliBravo/Portfolio_setup_and_mobile_first/tree/finish_Mobile_Version
 
 ### Install
 
 Install this project with:
  ```
- cd Portfolio_setup_and_mobile_first/tree/Portfolio_Setup
+ cd Portfolio_setup_and_mobile_first/tree/finish_Mobile_Version
  npm install
 ```
 ### Usage
@@ -105,7 +104,7 @@ You can deploy the project with the help of online web platform to host your web
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Mishelle Olivares**
+👤 **Mishelle Olivares Bravo**
 
 - GitHub: [@githubhandle](https://github.com/MoliBravo)
 - Twitter: [@twitterhandle](https://twitter.com/mishyolivares)
@@ -136,6 +135,7 @@ If you like this project please let me know
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank to all my partners who are supporting me trough this week.
+And as always thank you Aki!
 
 <p aling="right">(<a href="#readme-top">back to top</a>)</p>
 
