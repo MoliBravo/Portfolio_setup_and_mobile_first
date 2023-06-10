@@ -235,6 +235,9 @@ p {
   background-image: url(images/icon-languages.png);
   background-repeat: no-repeat;
   background-position: center top 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .cards-languages {
@@ -273,6 +276,9 @@ p {
   background-repeat: no-repeat;
   background-position: center top 2rem;
   margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .frameworks {
@@ -293,8 +299,8 @@ p {
   justify-content: center;
   gap: 8px;
   flex-direction: row;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .final-cards-frameworks {
@@ -319,7 +325,10 @@ p {
   background-image: url(images/icon-skills.png);
   background-repeat: no-repeat;
   background-position: center top 2rem;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  border-radius: 0.5rem;
 }
 
 .skills {
@@ -337,14 +346,14 @@ p {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  justify-content: center;
   gap: 8px;
   flex-direction: row;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  justify-items: center;
 }
 
-.final-cards-skils {
+.final-cards-skills {
   font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -353,17 +362,7 @@ p {
   color: #36b37f;
   border-radius: 4px;
   max-width: fit-content;
-}
 
-.final-cards-skills {
-  align-self: center;
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 12px;
-  background-color: white;
-  color: #36b37f;
-  border-radius: 4px;
 }
 
 .final-cards-skills.second {
