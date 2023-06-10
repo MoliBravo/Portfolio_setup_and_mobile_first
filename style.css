@@ -275,7 +275,6 @@ p {
   margin-top: 1.5rem;
 }
 
-
 .frameworks {
   display: flex;
   font-family: 'Inter', sans-serif;
@@ -309,6 +308,7 @@ p {
   border-radius: 4px;
   max-width: fit-content;
 }
+
 .final-cards-frameworks.second {
   margin-bottom: 1.5rem;
 }
